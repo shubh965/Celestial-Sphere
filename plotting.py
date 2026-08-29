@@ -56,7 +56,7 @@ def plot_equator(equator_xyz):
         textposition = 'top center',
         line = dict(
             color = 'white',
-            width = 4
+            width = 5
         ),
         name = 'Equator',
         showlegend = False
@@ -95,7 +95,7 @@ def plot_solar_ecliptic(solar_ecliptic_xyz):
         textposition = 'top center',
         line = dict(
             color = 'red',
-            width = 2
+            width = 5
         ),
         name = 'Solar Ecliptic',
         showlegend = False
