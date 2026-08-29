@@ -26,6 +26,7 @@ def main(star_num, star_mag, time):
     sun_moon_xyz = coordinates.sun_moon_coordinates(time)
     stars_xyz, phot_g_mean_mag = coordinates.stars_coordinates(star_num, star_mag, time)
 
+    print("\nPlotting...")
     fig = go.Figure()
 
     surfacecolor = np.ones_like(sphere_xyz[0])
